@@ -43,6 +43,9 @@ function reset() {
     hours = 0;
     minutes = 0;
     seconds = 0;
+    document.querySelector("#hours").innerHTML = hours;
+    document.querySelector("#minutes").innerHTML = minutes;
+    document.querySelector("#seconds").innerHTML = seconds;
 }
 // let hours = document.querySelector("#hour");
 // let minutes = document.querySelector("#minute");
